@@ -1,3 +1,10 @@
-After the project, you can review the solution here:
+ActiveRecordLite
 
-* https://github.com/appacademy-solutions/active_record_lite/tree/solution
+A recreation of ActiveRecord's key features and functionality
+
+Defines the following modules:
+ + Searchable
+ + Associatable
+
+
+
