@@ -62,6 +62,7 @@ describe "AssocOptions" do
 
       options = HasManyOptions.new("cats", "Human")
       expect(options.model_class).to eq(Cat)
+      p "model class name is #{options.class_name}"
       expect(options.table_name).to eq("cats")
     end
   end
