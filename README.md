@@ -4,13 +4,13 @@ A recreation of ActiveRecord's key features and functionality
 ##Defines a class SQLObject
 
 Class methods:
-::all
-::find
+* ::all
+* ::find
 
 Instance methods:
-#insert
-#save
-#jupdate
+* #insert
+* #save
+* #update
  
 For example, if you have a table "Cats" in your database, you could create Cat.rb:
   
@@ -36,11 +36,13 @@ Cat.all
 #   cats.*
 # FROM
 #   cats
+```
 
-
-Also defines the following modules:
- + Searchable (adding the class method "where")
- + Associatable (allowing for the methods has_many, belongs_to, and has_many_through
+Also defines the following modules: Searchable, Associatable, providing additional methods:
+ * ::where
+ * #has_many
+ * #belongs_to
+ * #has_many_through
  
 
 
